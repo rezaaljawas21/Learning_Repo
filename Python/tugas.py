@@ -93,6 +93,8 @@ siswa = [
     }
 ]
 
+def tampilkan_menu():
+
 # Fungsi untuk menambahkan siswa
 def tambah_siswa(nama, nisn, kelas, alamat, email, jenis_kelamin):
     msg = ""
@@ -258,6 +260,7 @@ while True:
             continue_ = input("Tekan tombol apapun untuk melanjutkan!...")
             clear_screen()
     elif pilihan == "5":
-        break
+        #break
+        exit()
     else:
         print("Pilihan tidak valid. Silakan pilih opsi yang valid.")

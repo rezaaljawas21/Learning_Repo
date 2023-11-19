@@ -1,4 +1,5 @@
 def fungsi(siswa_):
+    sisw
     return siswa_['Nama']
 
 siswa = [
